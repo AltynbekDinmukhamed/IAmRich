@@ -13,6 +13,7 @@
 		56C4868E2986037900432046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C4868C2986037900432046 /* Main.storyboard */; };
 		56C486902986037B00432046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C4868F2986037B00432046 /* Assets.xcassets */; };
 		56C486932986037B00432046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C486912986037B00432046 /* LaunchScreen.storyboard */; };
+		56C486B229860D4500432046 /* The i am rich.png in Resources */ = {isa = PBXBuildFile; fileRef = 56C486B129860D4500432046 /* The i am rich.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		56C4868F2986037B00432046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56C486922986037B00432046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56C486942986037B00432046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C486AF29860BE800432046 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		56C486B129860D4500432046 /* The i am rich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The i am rich.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,8 @@
 		56C4867A2986037900432046 = {
 			isa = PBXGroup;
 			children = (
+				56C486B029860D0B00432046 /* screenShots */,
+				56C486AF29860BE800432046 /* README.md */,
 				56C486852986037900432046 /* IAmRich */,
 				56C486842986037900432046 /* Products */,
 			);
@@ -65,6 +70,14 @@
 				56C486942986037B00432046 /* Info.plist */,
 			);
 			path = IAmRich;
+			sourceTree = "<group>";
+		};
+		56C486B029860D0B00432046 /* screenShots */ = {
+			isa = PBXGroup;
+			children = (
+				56C486B129860D4500432046 /* The i am rich.png */,
+			);
+			path = screenShots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +140,7 @@
 			files = (
 				56C486932986037B00432046 /* LaunchScreen.storyboard in Resources */,
 				56C486902986037B00432046 /* Assets.xcassets in Resources */,
+				56C486B229860D4500432046 /* The i am rich.png in Resources */,
 				56C4868E2986037900432046 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +308,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +336,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
